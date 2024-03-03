@@ -18,9 +18,7 @@ git clone https://github.com/your-username/your-repository.git
 Extract zip file
 
 Project Structure
-lua
-Copy code
-your-repository/
+luayour-repository/
 |-- public/
 |   |-- contact-form.html
 |   |-- forgot-password.html
@@ -39,12 +37,12 @@ Configure Environment
 Navigate to the project directory:
 
 bash
-Copy code
+
 cd your-repository
 Install project dependencies:
 
 bash
-Copy code
+
 npm install
 Update Configuration
 Open server.js in a text editor.
@@ -52,7 +50,7 @@ Open server.js in a text editor.
 Replace the following placeholders with your actual Gmail email and password:
 
 javascript
-Copy code
+
 auth: {
   user: 'your-email@gmail.com',
   pass: 'your-email-password',
@@ -63,7 +61,7 @@ Run the Application
 Start the Node.js server:
 
 bash
-Copy code
+
 node server.js
 Visit http://localhost:3000/ in your web browser.
 
